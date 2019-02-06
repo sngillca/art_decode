@@ -15,7 +15,8 @@
             echo "<h1><p class='correct'>CORRECT</p></h1>";
             
         } 
-        else {
+        if($userAnswer != $expectedAnswer && !(empty($userAnswer)))
+        {
             echo "<h1><p class='wrong'>WRONG</p></h1>";
         }
         echo "<h1>".$userAnswer."</h1>";
