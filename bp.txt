@@ -1,0 +1,6 @@
+1. Create DB with subjects to choose from.
+//this will be a table and will have teachers in them
+2. Create DB for teachers.
+3. Create DB for students.
+//maybe table with enrolled
+4. Create login/logout page.
